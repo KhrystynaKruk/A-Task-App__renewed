@@ -3,11 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>To Do List</title>
+
     <link rel="stylesheet" href="./style.css" />
+
+    <title>To do list</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Handlee&family=Inter:wght@300&display=swap");
+    </style>
   </head>
+
   <body>
-    <div class="root"></div>
+    <div class="wrapper four">
+      <div class="type">
+        <h3 class="typing">TO DO LIST . . .</h3>
+      </div>
+    </div>
+    <div class="root-1"></div>
+
     <script src="./script.js"></script>
+
+    <script>
+      const initToDo1 = crateToDoInit();
+      initToDo1(".root-1", "todo-1");
+    </script>
   </body>
 </html>
