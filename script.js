@@ -252,7 +252,7 @@ const crateToDoInit = function () {
       onNewToDoNameChange,
       newToDoName,
       function () {
-        newToDoInputIsFocused = false;
+        newToDoInputIsFocused = true;
       },
       newToDoInputIsFocused,
       "todo-list__input",
