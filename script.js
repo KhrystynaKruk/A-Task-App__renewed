@@ -82,8 +82,6 @@ const crateToDoInit = function () {
     input.value = value;
 
     input.addEventListener("input", onChange);
-    // input.placeholder = "...";
-    // document.getElementsByClassName("first").placeholder = "text";
 
     focus(focusCondition, input);
 
@@ -252,7 +250,7 @@ const crateToDoInit = function () {
       onNewToDoNameChange,
       newToDoName,
       function () {
-        newToDoInputIsFocused = true;
+        newToDoInputIsFocused = false;
       },
       newToDoInputIsFocused,
       "todo-list__input",
