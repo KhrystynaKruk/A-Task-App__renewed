@@ -74,11 +74,13 @@ const crateToDoInit = function () {
     onBlur,
     focusCondition,
     className,
-    placeholderValue
+    placeholderValue,
+    inputType
   ) {
     const input = document.createElement("input");
     input.className = className;
     input.placeholder = placeholderValue;
+    input.type = inputType;
     input.value = value;
 
     input.addEventListener("input", onChange);
@@ -254,7 +256,8 @@ const crateToDoInit = function () {
       },
       newToDoInputIsFocused,
       "todo-list__input",
-      "Write a note..."
+      "Write a note...",
+      "text"
     );
   };
 
@@ -347,7 +350,8 @@ const crateToDoInit = function () {
       },
       searchInputIsFocused,
       "todo-list__input",
-      "Search in your notes..."
+      "Search in your notes...",
+      "text"
     );
 
     container.appendChild(input);
