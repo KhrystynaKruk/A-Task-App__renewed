@@ -1,7 +1,8 @@
 body {
   /* background-image: url(./img/bgForNotesjpg.jpg); */
   font-family: "Handlee", cursive;
-  background-color: #027168;
+  /* background-color: #027168; */
+  background-color: black;
   padding: 10px;
   /* font-family: "Inter", sans-serif; */
 }
